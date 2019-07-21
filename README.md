@@ -1,7 +1,8 @@
 # Ornaments-on-Python
 Amazing ornaments created with loops. (You would not create it by your hand)
 
-"sk" = number /n
+In my coding line these strings means: 
+"sk" = number
 
 "ilgis" = lenght
 
