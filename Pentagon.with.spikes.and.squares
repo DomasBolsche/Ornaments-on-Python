@@ -1,12 +1,12 @@
 import turtle
 
-sk = 20
-ilgis = 100
-laipsnis = 90
+sk = 5             # 18 number
+ilgis = 100    # length
+laipsnis = 90   # degrees
 for maka in range(sk):
     turtle.color('black')
     turtle.forward(ilgis)
-    turtle.right(360/sk)  # 18 laipsniu
+    turtle.right(18)  # 18 degrees
     for makamaka in range(1):
         turtle.color('blue')
         turtle.back(ilgis/2)
