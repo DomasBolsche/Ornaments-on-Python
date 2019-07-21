@@ -1,0 +1,21 @@
+import turtle
+
+sk = 12
+ilgis = 100
+laipsnis = 90
+for maka in range(sk):
+    turtle.color('black')
+    turtle.forward(ilgis)
+    turtle.right(360/sk)
+    for makamaka in range(1):
+        turtle.color('blue')
+        turtle.back(ilgis/2)
+        turtle.right (laipsnis)
+        for maka2maka in range(1):
+            turtle.color('red')
+            turtle.forward(ilgis / 4)
+            turtle.right(laipsnis)
+            for maka22maka in range(1):
+                turtle.color('green')
+                turtle.back(ilgis / 8)
+                turtle.right(laipsnis)
