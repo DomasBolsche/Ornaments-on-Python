@@ -6,7 +6,7 @@ laipsnis = 90
 for maka in range(sk):
     turtle.color('black')
     turtle.forward(ilgis)
-    turtle.right(360/sk)
+    turtle.right(360/sk)  # 18 laipsniu
     for makamaka in range(1):
         turtle.color('blue')
         turtle.back(ilgis/2)
